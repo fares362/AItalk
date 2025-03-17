@@ -1,0 +1,5 @@
+# Installez Lighthouse globalement si ce n'est pas déjà fait
+npm install -g lighthouse
+
+# Exécutez Lighthouse sur votre site
+lighthouse http://localhost:3000 --output html --output-path ./report.html
